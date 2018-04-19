@@ -49,10 +49,10 @@ googleAnalytics = ""
     brand = "Miah's Pick A Book"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    #services = "Services"
+    #portfolio = "Portfolio"
     about = "About"
-    team = "Team"
+    #team = "Team"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -67,8 +67,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://org.usbornebooksathome.co.uk/Pick-A-Book_miafreund/catalogue/catalogue.aspx"
+      name = "Webshop"
       weight = 10
 
 
@@ -82,46 +82,46 @@ googleAnalytics = ""
 
 
   # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+  # [params.services]
+  #   enable = true
+  #   title = "Services"
+  #   subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-    [[params.services.row]]
+  #   [[params.services.row]]
 
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+  #   [[params.services.row.list]]
+  #     icon = "fa-shopping-cart"
+  #     title = "E-Commerce"
+  #     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #     url  "fa-laptop"
+  #     title = "Responsive Design"
+  #     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #     url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+  #   [[params.services.row.list]]
+  #     icon = "fa-lock"
+  #     title = "Web"
+  #     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #     url = "#"= "#"
 
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+  #   [[params.services.row.list]]
+  #     icon =
 
-  # Portfolio section
-  [params.portfolio]
-    enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+  # # Portfolio section
+  # [params.portfolio]
+  #   enable = true
+  #   # All projects defined in their own files. You can find example projects
+  #   # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+  #   # at the root of this Hugo site.
+  #   # For more informtion take a look at the README.
+  #   title = "Portfolio"
+  #   subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+  #   [params.portfolio.modal]
+  #     client = "Client"
+  #     date = "Date"
+  #     category = "Category"
+  #     buttonText = "Close project"
 
 
     # About section
@@ -135,108 +135,108 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "4.jpg"
       date = "2009-2011"
       title = "Our Humble Beginnings"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "5.jpg"
       date = "March 2011"
       title = "An Agency is Born"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
+      img = "6.jpg"
       date = "December 2012"
       title = "Our Humble Beginnings"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "4.jpg"
+      img = "7.jpg"
       date = "July 2014"
       title = "Phase Two Expansion"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
-  [params.team]
-    enable = true
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+#   [params.team]
+#     enable = true
+#     # Possibility to center items
+#     #center = true
+#     title = "Our amazing team"
+#     subtitle = "Lorem ipsum dolor sit amet consectetur."
+#     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+#     # All team member's pictures are stored under 'static/img/team'.
+#     # Replace them with your own too.
+#     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+#     [[params.team.members]]
+#       img = "1.jpg"
+#       name = "Kay Garland"
+#       position = "Lead Designer"
+#       reportsTo = "CTO"
+#       livesIn = "[Munich, Germany](#some-maps-url)"
+#       scope = [
+#         "UX for [member dashboard](#)",
+#         "Maintainer for [awesome-project](#)",
+#         "Open Source [community management](#)"
+#       ]
+#       # For bio markdown and even multiline strings are available.
+#       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+# She worked at Pied Piper for years until they went belly up."""
+#       social = [
+#         ["fa-twitter", "#"],
+#         ["fa-facebook", "#"],
+#         ["fa-linkedin", "#"]
+#       ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+#     [[params.team.members]]
+#       img = "2.jpg"
+#       name = "Larry Parker"
+#       position = "Lead Marketer"
+#       social = [
+#         ["fa-twitter", "#"],
+#         ["fa-facebook", "#"],
+#         ["fa-linkedin", "#"]
+#       ]
 
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+#     [[params.team.members]]
+#       img = "3.jpg"
+#       name = "Diana Pertersen"
+#       position = "Lead Developer"
+#       social = [
+#         ["fa-twitter", "#"],
+#         ["fa-facebook", "#"],
+#         ["fa-linkedin", "#"]
+#       ]
 
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+#   # Client section
+#     [params.clients_list]
+#       enable = true
+#       # Possibility to center items
+#       #center = true
+#       # Optional client title specifying the involvement
+#       #title = "Used and trusted by"
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+#       # All the clients' logos are stored under 'static/img/logos'.
+#       # Replace them with your clients's logos.
+#       # Suggestion: .svg in the size of 280px*80px looks good
+#       [[params.clients]]
+#         logo = "envato.jpg"
+#         link = "#"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
+#       [[params.clients]]
+#         logo = "designmodo.jpg"
+#         link = "#"
 
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
+#       [[params.clients]]
+#         logo = "themeforest.jpg"
+#         link = "#"
 
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+#       [[params.clients]]
+#         logo = "creative-market.jpg"
+#         link = "#"
 
   # Contact section
   [params.contact]

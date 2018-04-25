@@ -1,5 +1,6 @@
 # Site settings
-baseurl = "https://example.org/"
+# baseurl = "https://example.org/"
+baseurl = "https://vigilant-kilby-9705b8.netlify.com/"
 languageCode = "en-us"
 title = "Miah's Pick a book"
 theme = "agency"

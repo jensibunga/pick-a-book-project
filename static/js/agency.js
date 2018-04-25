@@ -48,7 +48,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Async contact form
 $('form[id=contactForm]').submit(function(){
-  $.post($(this).attr('action'), $(this).serialize(), function(data, textStatus, jqXHR){
+  $.post("https://vigilant-kilby-9705b8.netlify.com", $(this).serialize(), function(data, textStatus, jqXHR){
     $('form[id=contactForm] #success').hide();
     $('form[id=contactForm] #error').hide();
     if (jqXHR.status == 200) {

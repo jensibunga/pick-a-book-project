@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Agency"
+title = "Miah's Pick a book"
 theme = "agency"
 
 # Enter your tracking code to enable Google Analytics

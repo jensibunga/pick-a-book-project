@@ -79,8 +79,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Welcome To Miah's Pick a Book"
     subtitle = "It's nice to meet you"
-    # buttonText = "Please check our new available books!"
-
+    buttonText = "Please check our new available books!"
 
   # Services section
   # [params.services]

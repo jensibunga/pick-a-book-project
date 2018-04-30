@@ -1,6 +1,6 @@
 ### Pick a Book Project
 
-... This is static website fo my friends bookstore.
+...This is static website fo my friends bookstore.
 
 #### Technologies Used
 
